@@ -1,0 +1,10 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+}
+
+.infoBox{
+  width: calc(100% - 256px);
+}

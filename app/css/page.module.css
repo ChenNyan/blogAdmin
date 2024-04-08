@@ -1,0 +1,28 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  width: 600px;
+}
+
+.formItem{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.formItem span{
+  display: inline-block;
+  width: 60px;
+}
+
+.formItem input{
+  width: calc(100% - 60px);
+}
