@@ -9,6 +9,7 @@ import ArticleManage from "@/app/components/ArticleManage";
 import CateManage from "@/app/components/CateManage";
 
 import styles from '../css/managePage.module.css'
+import stylesCom from "../css/childPage.moudule.css"
 import {setToken} from "@/app/untils/untils";
 
 export default function Home() {

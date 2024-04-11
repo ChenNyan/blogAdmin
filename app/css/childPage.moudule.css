@@ -1,0 +1,29 @@
+.childMain{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 12px;
+}
+.childMain >div{
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.topForm{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.topFormItem{
+  display: flex;
+  align-items: center;
+}
+.topFormItem span{
+  width: 90px;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 6px;
+}

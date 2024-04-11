@@ -31,7 +31,7 @@ export default function Home() {
     const res = await login({username, password})
     if(res.code == 200){
       message.success(res.msg)
-      setToken('token',res.data.token)
+      setToken(res.data.token)
       Router.push('/managePage')
     } else {
       message.error(res.msg)
