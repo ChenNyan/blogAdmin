@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@ant-design/nextjs-registry": "^1.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^41.3.0",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
     "antd": "^5.16.1",
     "axios": "^1.6.8",
     "js-cookie": "^3.0.5",

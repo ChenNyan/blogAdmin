@@ -16,7 +16,6 @@ export default function Home() {
 
 
   useEffect(() => {
-
   },[])
 
   const [key,setKey] = useState('1')

@@ -20,7 +20,7 @@ export default function CateManage() {
       ref.current = false;
       // 在组件首次渲染时执行某些操作
     }
-  });
+  },[]);
 
   const cateNameChange = (e) => {
     setCateName(e.target.value)
